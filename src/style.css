@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0px 30px;
+}
+
+/* Styling for the first div */
+
+.title{
+    font-size: 39px;
+    color: blueviolet;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.goal{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+}
+
+.goal h3{
+    background-color: blueviolet;
+    color: white;
+    opacity: 0.8;
+    padding:30px;
+    font-size: 39px;
+    width: 15%;
+}
+
+.goal p{
+    background-color: rgb(196, 194, 194);
+    opacity: 0.7;
+    padding:30px;
+    font-size: 24px;
+    /* width: 80%; */
+}
+
+/* styling for the 2nd div */
+
+.project-title{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 31px;
+    padding: 10px 0px;
+}
+
+.project-areas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:3rem;
+}
+
+.project-area{
+    background-color: blueviolet;
+    border: 1px solid grey;
+    border-radius: 9px;
+    width: 300px;
+    padding: 20px 25px;
+}
+
+.project-area ul li b{
+    text-transform: capitalize;
+    font-size: 23px;
+}
+
+.project-area ul li {
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+    /* opacity: 0.8; */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.number{
+    text-align: center;
+    height: 50px;
+}
+
+.number span{
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 34px;
+    font-weight: bolder;
+    padding: 10px 30px;
+    border-radius: 9px;
+}
+
+.project-area .project-area-title h3{
+   color: white;
+   padding-top: 7px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   word-spacing: 1.9px;
+}
+
+.project-area .project-area-title{
+    margin: 10px 0px;
+    border: 1px solid white;
+    height: 3.5rem;
+}
+
+.project-area:hover, .project-area-title:hover{
+    background-color: rgb(147, 145, 145);
+    color: blueviolet;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
